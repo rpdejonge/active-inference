@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "active-inference-lab"
+version = "0.1.0"
+description = "Research framework for Active Inference agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+authors = [
+  {name = "Your Name"}
+]
+
+dependencies = [
+  "gymnasium>=0.29",
+  "numpy>=1.26",
+  "pyyaml>=6.0",
+  "rich>=13.7"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+  "mypy"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+ainlab-train = "ainlab.cli.train:main"
