@@ -1,7 +1,6 @@
-# active-inference
-playing around with active inference agents (Parr, Pezzulo & Friston 2022).
-
 ## Active Inference Lab
+
+playing around with active inference (AIF) agents (Parr, Pezzulo & Friston 2022).
 
 The first implemented domain is the **Taxi environment** from Gymnasium.
 
@@ -19,7 +18,6 @@ Goals of the project:
 
 ```bash
 git clone <repo>
-cd active-inference-lab
 
 python -m venv .venv
 source .venv/bin/activate

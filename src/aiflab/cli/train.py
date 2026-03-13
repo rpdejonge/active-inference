@@ -4,7 +4,7 @@ Currently only a bootstrap placeholder.
 """
 
 import argparse
-from ainlab.utils.logging import configure_logging
+from aiflab.utils.logging import configure_logging
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -47,3 +47,7 @@ def main() -> None:
     print(f"config={args.config}")
     print(f"seed={args.seed}")
     print(f"episodes={args.episodes}")
+
+
+if __name__ == "__main__":
+    main()

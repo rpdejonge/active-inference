@@ -32,4 +32,4 @@ dev = [
 where = ["src"]
 
 [project.scripts]
-ainlab-train = "ainlab.cli.train:main"
+aiflab-train = "aiflab.cli.train:main"
