@@ -2,6 +2,8 @@
 
 playing around with active inference (AIF) agents (Parr, Pezzulo & Friston 2022).
 
+## Taxi
+
 The first implemented domain is the **Taxi environment** from Gymnasium.
 
 Goals of the project:
